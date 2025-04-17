@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Navbar from "@/components/navbar";
 import Background from "@/components/Background";
-import Footer from "@/components/Footer";
+import { Footer } from "@/components/Footer";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -17,8 +17,10 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Clear any previous errors
     setError("");
 
+    // Basic validation
     if (!email || !password) {
       setError("Please fill in all fields");
       return;
@@ -26,8 +28,12 @@ export default function LoginPage() {
 
     setLoading(true);
 
+    // For demo purposes, we'll simulate a login
     setTimeout(() => {
+      // In a real app, you would make an API call here
+      // and handle authentication
 
+      // Simulate successful login and redirect to dashboard
       router.push("/dashboard");
       setLoading(false);
     }, 1500);
