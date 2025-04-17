@@ -20,7 +20,12 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.0.1",
     "tailwind-merge": "^3.0.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "@dnd-kit/core": "^5.0.0",  // Aggiunto
+    "@dnd-kit/sortable": "^5.0.0", // Aggiunto
+    "@dnd-kit/utilities": "^5.0.0", // Aggiunto
+    "sonner": "^0.3.0",  // Aggiunto
+    "react-colorful": "^5.0.0"  // Aggiunto
   },
   "devDependencies": {
     "@types/node": "^20",
