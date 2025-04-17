@@ -46,7 +46,7 @@ export default function UserProfilePage() {
       <Navbar />
       <main className="container mx-auto px-4 py-8">
         <div className="min-h-screen flex items-center justify-center bg-[#0a192f] p-4">
-          <DiscordCard {...profileData} />
+          <DiscordCard />
         </div>
       </main>
       <Footer />
