@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/Footer";
+import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-blue-200/80"
           >
-            Custom Card System
+            Advanced Discord automation with powerful token management, mass messaging and server tools
           </motion.p>
 
           <motion.div
