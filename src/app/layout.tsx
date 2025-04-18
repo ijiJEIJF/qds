@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "facked.lol | Advanced Discord Automation",
-  description: "Advanced Discord automation with powerful token management, mass messaging and server tools",
+  title: "facked.lol",
+  description: "facked.lol",
 };
 
 export default function RootLayout({
