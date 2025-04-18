@@ -36,7 +36,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-blue-200/80"
           >
-            Advanced Discord automation with powerful token management, mass messaging and server tools
+            Profile Card Manager, facked.lol
           </motion.p>
 
           <motion.div
