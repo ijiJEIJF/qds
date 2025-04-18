@@ -113,8 +113,8 @@ export default function HomePage() {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] to-white">.LOL</span>
             </h1>
             <p className="text-[#60A5FA]/80 text-xl max-w-2xl mx-auto leading-relaxed mb-16">
-              Advanced Discord automation with powerful token management, 
-              <br />mass messaging and server tools
+              Profile Card Manager , 
+              <br />facked.lol
             </p>
 
             <div className="flex items-center justify-center gap-6">
