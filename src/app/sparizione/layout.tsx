@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "l3n | facked.lol",
-  description: "Check out l3n's profile card. Join our Discord community and create your own custom profile card.",
+  description: "l3n | facked.lol owner",
   openGraph: {
     title: "l3n | facked.lol",
     description: "Check out l3n's profile card",
