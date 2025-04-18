@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import DiscordCard from '@/components/DiscordCard';
 
-export default function SparizionePage() {
+export default function UserProfilePage() {
   const [isEntered, setIsEntered] = useState(false);
   const [audioUnlocked, setAudioUnlocked] = useState(false);
 
